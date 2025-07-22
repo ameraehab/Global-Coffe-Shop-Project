@@ -17,7 +17,6 @@
 
 body{
       font-family: "Open Sans", sans-serif;
-      background-color: var(--bg-color);
 }
 h1 , h2 , h3 {
       font-family: "Oswald", sans-serif;
@@ -30,7 +29,11 @@ ul{
 a{
     text-decoration: none;
 }
- 
+ /* utility classes */
+ .container{
+    max-width: 1200px;
+    margin: auto;
+ }
 /* Header Start  */
 #header{
 position: fixed ;
@@ -73,6 +76,23 @@ color: #934a01;
 }
 /* Header End  */
  
-/* main start */
+/* home start */
+#home{
+    background: url("./images/home-bg.png") center no-repeat;
+    background-size: 100%;
+          background-color: var(--bg-color);
+
+          
+
+}
+.home-content{
+    display: flex;
+    align-items: center;
+    padding-top: 50px;
+}
+.home-content img{
+    width: 450px;
+}
+/* home end */
 
 
