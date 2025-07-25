@@ -201,7 +201,13 @@ line-height: 1.3;
     margin: 15px 0;
     border: 1px solid #ddd;
     padding: 20px 20px;
-    
+
+        transition: all 0.2s ease ; 
+
+}
+#menu .row .col .item:hover{
+height: 120px;
+  box-shadow: 0 0 10px rgba(44, 18, 3, 0.592);
 }
 #menu .row .col .item img{
 width: 70px;
@@ -213,5 +219,22 @@ margin-left: -50px;
     margin-bottom: 5px;
 
 }
+#menu .row .col .item .details p{
+    font-size: 14px;
+    line-height: 1.6;
+
+}
+#menu .row .col .item .price{
+    border-left: 1px solid #ccc;
+    padding: 20px;
+    margin: auto;
+
+}
+#menu .row .col .item .price p{
+    font-size: 20px;
+    font-weight: 600;
+
+}
+
 /*Menu End*/
  
