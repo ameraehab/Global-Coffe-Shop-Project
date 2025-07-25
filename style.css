@@ -20,6 +20,8 @@ body{
 }
 h1 , h2 , h3 {
       font-family: "Oswald", sans-serif;
+    color: #442e16;
+
 }
 
 ul{
@@ -63,7 +65,7 @@ color: #934a01;
     display: flex;
 }
 .navbar ul li a{
-    color: #713c06;
+    color: #442e16;
     font-size: 17px;
     margin: 0 20px;
     font-weight:700;
@@ -85,14 +87,49 @@ color: #934a01;
           
 
 }
-.home-content{
-    display: flex;
-    align-items: center;
-    padding-top: 50px;
+#home .home-content{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  min-height: 100vh;
+  gap: 3rem;
+  align-items: center;
 }
-.home-content img{
-    width: 450px;
+.home-content img:hover{
+  transform: rotate(180deg);
+
 }
+#home .home-content .content-text h3 {
+font-size: 24px;
+font-weight: 400;
+}
+#home .home-content .content-text h1 {
+font-size: 80px;
+margin: 20px 0;
+line-height: 1.3;
+}
+#home .home-content .content-text p {
+    font-size: 18px;
+    line-height: 1.5;
+}
+#home .home-content .content-text .btn{
+    display: inline-block;
+    margin-top: 2rem;
+    border: 1px solid #934a01;
+    border-radius: 50px;
+    padding: 15px;
+    background-color: #934a01;
+    color: var(--bg-color);
+        transition: all 0.3s ease ; 
+
+
+}
+#home .home-content .content-text .btn:hover{
+
+     
+    background-color: rgb(173, 113, 53);
+    border: 1px solid  rgb(173, 113, 53);
+}
+
 /* home end */
 
 
