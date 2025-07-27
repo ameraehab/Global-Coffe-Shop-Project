@@ -347,4 +347,11 @@ color: #fff;
       #footer .footer-top .row .col ul li a{
       
     color: #fff;}
+    #footer .copyRights{
+        background-color: var(--dark-gray);
+        padding: 30px 0;
+        text-align: center;
+        color: #fff;
+        
+    }
  /*Footer End */
